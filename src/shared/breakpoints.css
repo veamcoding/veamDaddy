@@ -1,0 +1,13 @@
+
+@custom-media --xs-viewport (max-width: 599px);
+@custom-media --s-viewport (max-width: 767px);
+
+
+@custom-media --l-viewport (max-width: 1439px);
+@custom-media --xl-viewport (max-width: 1919px);
+
+
+@custom-media --m-viewport (max-width: 1023px);
+@custom-media --mr-viewport (max-width: 1080px);
+@custom-media --ml-viewport (max-width: 1340px);
+@custom-media --ms-viewport (max-width: 890px);

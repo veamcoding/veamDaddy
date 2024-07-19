@@ -1,0 +1,26 @@
+@import url("@/shared/breakpoints.css");
+.root {}
+.logo {
+    color: var(--color-white);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .image {
+        width: 180px;
+        height: 16px;
+        background-image: url("/images/logo_white.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        &.blue {
+            background-image: url("/images/logo_blue.png");
+        }
+        
+    }
+    @media (--s-viewport) {
+        .image {
+            height: 15px;
+        }
+       
+    }
+}

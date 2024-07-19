@@ -1,0 +1,12 @@
+:root {
+  --text-color: #000;
+  --background-color-white: #fff;
+  --background-color-black: #030303;
+
+  /* Global colors */
+  --color-white: #fff;
+  --color-white-gray: #f4f4f4;
+  --color-gray: #989898;
+  --color-blue-brand: #389CD5;
+  --color-black: #030303;
+}

@@ -1,0 +1,13 @@
+@import url("@/shared/breakpoints.css");
+
+.root {
+    max-width: 1180px;
+    width: 100%;
+
+    @media (max-width: 1220px) {
+        padding: 0 30px;
+    }
+    @media (--s-viewport) {
+
+    }
+}

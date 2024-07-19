@@ -1,0 +1,15 @@
+@import url("@/shared/breakpoints.css");
+.root {}
+.cate {
+    display: block;
+    color: var(--color-blue-brand);
+}
+.title {
+    color: var(--text-color);
+    &.white {
+        color: var(--color-white);
+    }
+    @media (--s-viewport) {
+        font-size: 2rem; /* 32px */
+    }
+}
